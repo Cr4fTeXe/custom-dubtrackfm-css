@@ -29,10 +29,10 @@ a:hover, a:visited {
     border: 2px solid #AA74FE;
 }
 #roomFormUpdate, #roomInfoModal {
-	border: 2px solid #AA74FE;
+    border: 2px solid #AA74FE;
 }
 #roomFormUpdate .mid a, #roomInfoModal .mid a {
-	color: #AA74FE;
+    color: #AA74FE;
 }
 #header-global .user-info .user-header-menu li.user-messages span.message-counter {
     background: #AA74FE;
@@ -113,15 +113,21 @@ a:hover, a:visited {
 
 /* Video box */
 #main_player{
-	padding: 0;
+    padding: 0;
 }
 #main-room .left_section {
     background: #111;
 }
 #main_player .player_sharing {
-    -webkit-animation: pusate 1s linear infinite;
+    /*-webkit-animation: pusate 1s linear infinite;
     -moz-animation: pusate 1s linear infinite;
-    animation: pusate 1s linear infinite;
+    animation: pusate 1s linear infinite;*/
+  -webkit-animation: pulse 3s ease-out;
+  -moz-animation: pulse 3s ease-out;
+  animation: pulse 3s ease-out;
+  -webkit-animation-iteration-count: infinite;
+  -moz-animation-iteration-count: infinite;
+  animation-iteration-count: infinite;
 }
 
 @-webkit-keyframes pusate {
@@ -137,6 +143,24 @@ a:hover, a:visited {
     100% { box-shadow: 0 0 20px #555; }
 }
 
+
+@-moz-keyframes pulse {
+ 0% { -moz-transform: scale(0); opacity: 0.0;}
+ 25% { -moz-transform: scale(0); opacity: 0.1;}
+ 50% { -moz-transform: scale(0.1); opacity: 0.3; }
+ 75% { -moz-transform: scale(0.5); opacity: 0.5;}
+ 100% { -moz-transform: scale(1); opacity: 0.0;}
+}
+
+@-webkit-keyframes "pulse" {
+ 0% { -webkit-transform: scale(0); opacity: 0.0;}
+ 25% { -webkit-transform: scale(0); opacity: 0.1;}
+ 50% { -webkit-transform: scale(0.1); opacity: 0.3;}
+ 75% { -webkit-transform: scale(0.5); opacity: 0.5;}
+ 100% { -webkit-transform: scale(1); opacity: 0.0;}
+}
+
+
 #main_player .player_sharing span:hover {
     color: #AA74FE;
 }
@@ -150,7 +174,7 @@ a:hover, a:visited {
     opacity: 0.75;
 }
 #main_player .player_container .placeholder h5 span {
-	color: #AA74FE;
+    color: #AA74FE;
 }
 #main_player .player_container {
     height: 25.45em;
@@ -224,8 +248,8 @@ button:hover {
     color: #000;
 }
 #chat .chat-container ul.chat-main li.chat-welcome-message {
-	color: #FFFFFF;
-	font-size: .85em;
+    color: #FFFFFF;
+    font-size: .85em;
 }
 #chat .chat-container .pusher-chat-widget-input button {
     color: #000;
@@ -233,14 +257,14 @@ button:hover {
     opacity: 0.75;
 }
 #chat .chat-container ul.chat-main li.chat-welcome-message a {
-	color: #AA74FE;
+    color: #AA74FE;
 }
 #chat .chat-container .pusher-chat-widget-input .icon-camera {
     color: #AA74FE;
     opacity: 0.75;
 }
 #chat .chat-container ul.chat-main li.chat-system-loading {
-	color: #835BC2;
+    color: #835BC2;
 }
 #chat .chat-container ul.chat-main li.system {
     color: #C42E3B;
@@ -257,12 +281,12 @@ button:hover {
 }
 /*
 #chat .chat-container ul.chat-main li .activity-row .text p a.username .isMod {
-	color: #C42E3B;
-	opacity: 1;
+    color: #C42E3B;
+    opacity: 1;
 }
 #chat .chat-container ul.chat-main li .activity-row .text p a.username .isAdmin {
-	color: #00FFFF !important;
-	opacity: 1;
+    color: #00FFFF !important;
+    opacity: 1;
 }
 */
 #chat .chat-container ul.chat-main li .activity-row .text span.username-handle[style="color: rgba(255, 0, 255, 0.8);"] {
@@ -300,7 +324,7 @@ button:hover {
     transition: left 0.0s ease-in 0.0s;
 }
 ul.avatar-list li p {
-	color: #CCC;
+    color: #CCC;
 }
 ul.avatar-list li p.username {
     color: #868489;
@@ -331,7 +355,7 @@ ul.avatar-list li.manager p,
 ul.avatar-list li.mod p,
 ul.avatar-list li.vip p,
 ul.avatar-list li.resident-dj p {
-	color: #AA74FE;
+    color: #AA74FE;
 }
 ul.avatar-list li.currentDJ p {
     color: #FF00FF !important;
@@ -345,26 +369,26 @@ ul.avatar-list li.mod p.dubs,
 ul.avatar-list li.vip p.dubs,
 ul.avatar-list li.resident-dj p.dubs,
 ul.avatar-list li.currentDJ p.dubs {
-	color: #999 !important;
+    color: #999 !important;
 }
 ul.avatar-list li.updub {
-	border: 1px solid #000000;
-	box-shadow: inset 4px 0px 0px 0px #90AD2F;
+    border: 1px solid #000000;
+    box-shadow: inset 4px 0px 0px 0px #90AD2F;
 }
 ul.avatar-list li.downdub {
-	border: 1px solid #000000;
-	box-shadow: inset 4px 0px 0px 0px #C42E3B;
+    border: 1px solid #000000;
+    box-shadow: inset 4px 0px 0px 0px #C42E3B;
 }
 #user_popover .global-actions a {
-	background: #A16EF1;
+    background: #A16EF1;
 }
 #user_popover .actions a input {
-	border-bottom: 1px solid #A16EF1;
+    border-bottom: 1px solid #A16EF1;
 }
 #user_popover .actions a {
     color: #FFF;
     background: #000000;
-	outline: 1px solid #A16EF1;
+    outline: 1px solid #A16EF1;
 }
 #user_popover {
     background: #111;
@@ -393,7 +417,7 @@ ul.avatar-list li.downdub {
     border: 5px solid #AA74FE;
 }
 #profileMainSection .profileView .infoProfile button.message.unfollow {
-	color: #ccc;
+    color: #ccc;
     background: #333;
 }
 #profileMainSection .profileView .infoProfile h2 .check_username_info.error {
@@ -423,17 +447,17 @@ ul.avatar-list li.downdub {
     opacity: 0.75;
 }
 #browser .sidebar #room-lock-queue {
-	background: #AA74FE !important;
+    background: #AA74FE !important;
 }
 #browser .sidebar #room-lock-queue.locked {
-	background: #AA74FE !important;
+    background: #AA74FE !important;
 }
 #browser .pause-queue-browser-bth {
-	color: #AA74FE !important;
+    color: #AA74FE !important;
 }
 #browser .clear-queue-browser-bth, 
 #browser .pause-queue-browser-bth {
-	outline: #AA74FE !important;
+    outline: #AA74FE !important;
 }
 #browser .create-playlist span {
     color: #000;
@@ -454,8 +478,8 @@ ul.avatar-list li.downdub {
     opacity: 0.85;
 }
 #browser .content-videos ul.browserPlaylistItems>li.selected {
-	outline: 1px solid #AA74FE !important;
-	border-bottom: 1px solid #AA74FE !important;
+    outline: 1px solid #AA74FE !important;
+    border-bottom: 1px solid #AA74FE !important;
 }
 #browser .content-videos ul.browserPlaylistItems>li span.timeDisplay {
     color: #000;
@@ -509,7 +533,7 @@ ul.avatar-list li.downdub {
     border: 1px #202020 solid;
 }
 
-	/* Video Previews */
+    /* Video Previews */
 .player .ui-slider-range {
     background: #AA74FE;
     position: absolute;
@@ -527,7 +551,7 @@ ul.avatar-list li.downdub {
     color: #fff;
     background: #AA74FE;
 }
-	/* Soundcloud */
+    /* Soundcloud */
 .player .loading, .player .buffering {
     background: #AA74FE;
 }
@@ -547,7 +571,7 @@ ul.avatar-list li.downdub {
     color: #AA74FE !important;
 }
 .onErr .container .control .confirm {
-	background: #AA74FE;
+    background: #AA74FE;
 }
 .BSSControl .storeBSSClass,
 .RSSControl .storeRSSClass,
