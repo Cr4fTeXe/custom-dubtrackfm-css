@@ -35,7 +35,7 @@ a:hover, a:visited {
     color: #AA74FE;
 }
 #header-global, #header-global h1{
-    -webkit-animation: pulse 10s infinite alternate ease-in-out;
+    -webkit-animation: pulse 10s infinite alternate ease-out;
 }
 #header-global .user-info .user-header-menu li.user-messages span.message-counter {
     background: #AA74FE;
@@ -43,7 +43,7 @@ a:hover, a:visited {
 
 /* Bottom Bar */
 #player-controller{
-    -webkit-animation: pulse 10s infinite alternate ease-in-out;
+    -webkit-animation: pulse 10s infinite alternate ease-out;
 }
 #player-controller ul li a.playbtn:hover {
     background-color: #AA74FE !important;
@@ -130,7 +130,7 @@ a:hover, a:visited {
     100% {background-color: #010101;}
 }
 #main_player .player_sharing {
-    -webkit-animation: pulse 10s infinite alternate ease-in-out;
+    -webkit-animation: pulse 10s infinite alternate ease-out;
 }
 
 #main_player .player_sharing span:hover {
@@ -212,7 +212,7 @@ button:hover {
 /* Chat box */
 
 #chat, .chat_tools, .pusher-chat-widget-input{
-    -webkit-animation: pulse 10s infinite alternate ease-in-out;
+    -webkit-animation: pulse 10s infinite alternate ease-out;
 }
 
 #chat .chat_tools .room-user-counter {
