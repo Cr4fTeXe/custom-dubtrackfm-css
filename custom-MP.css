@@ -126,7 +126,7 @@ a:hover, a:visited {
      100% {background-color: #222;}
 }
 #main_player .player_sharing {
-    -webkit-animation: pulse 80s infinite alternate;
+    -webkit-animation: pulse 10s infinite alternate;
     background-color: #555;
 }
 
