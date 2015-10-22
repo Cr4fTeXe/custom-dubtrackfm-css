@@ -133,9 +133,9 @@ a:hover, a:visited {
      100% {background-color: #1c1c1c;}
 }*/
 @-webkit-keyframes pulse{
-    0% {background-color: #010101;}
+    0% {background-color: #2d2d2d;}
     50% {background-color: #151515;}
-    100% {background-color: #2d2d2d;}
+    100% {background-color: #010101;}
 }
 #main_player .player_sharing {
     -webkit-animation: pulse 20s infinite alternate ease-in-out;
