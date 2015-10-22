@@ -36,6 +36,10 @@ a:hover, a:visited {
 }
 #header-global, #header-global h1{
     -webkit-animation: pulse 2s infinite alternate ease-out;
+    -webkit-animation: pulseshadow 2s infinite alternate ease-out;
+}
+}
+
 }
 #header-global .user-info .user-header-menu li.user-messages span.message-counter {
     background: #AA74FE;
@@ -44,6 +48,8 @@ a:hover, a:visited {
 /* Bottom Bar */
 #player-controller{
     -webkit-animation: pulse 2s infinite alternate ease-out;
+    -webkit-animation: pulseshadow 2s infinite alternate ease-out;
+}
 }
 #player-controller ul li a.playbtn:hover {
     background-color: #AA74FE !important;
@@ -125,9 +131,14 @@ a:hover, a:visited {
     background: #111;
 }
 @-webkit-keyframes pulse{
-    0% {background-color: #252525; box-shadow: 0px 0px 10px 5px rgba(0,0,0,0.6);}
-    50% {background-color: #151515; box-shadow: 0px 0px 20px 7px rgba(0,0,0,0.6);}
-    100% {background-color: #010101; box-shadow: 0px 0px 30px 10px rgba(0,0,0,0.6);}
+    0% {background-color: #252525;}
+    50% {background-color: #151515;}
+    100% {background-color: #010101;}
+}
+@-webkit-keyframes pulseshadow{
+    0% {box-shadow: 0px 0px 10px 5px rgba(0,0,0,0.6);}
+    50% {box-shadow: 0px 0px 20px 7px rgba(0,0,0,0.6);}
+    100% {box-shadow: 0px 0px 30px 10px rgba(0,0,0,0.6);}
 }
 #main_player .player_sharing {
     -webkit-animation: pulse 2s infinite alternate ease-out;
@@ -213,6 +224,9 @@ button:hover {
 
 #chat, .chat_tools, .pusher-chat-widget-input{
     -webkit-animation: pulse 2s infinite alternate ease-out;
+}
+#chat{
+    -webkit-animation: pulseshadow 2s infinite alternate ease-out;
 }
 
 #chat .chat_tools .room-user-counter {
