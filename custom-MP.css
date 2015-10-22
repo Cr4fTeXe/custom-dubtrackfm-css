@@ -134,9 +134,9 @@ a:hover, a:visited {
     100% {background-color: #010101;}
 }
 @-webkit-keyframes pulse{
-    0% {box-shadow: 0px 0px 0px 0px rgba(0,0,0,0.6); background-color: #252525; height: calc(initial + 1%); width: calc(initial + 1%);}
-    50% {box-shadow: 0px 0px 15px 10px rgba(0,0,0,0.6); background-color: #151515; height: calc(initial + 1%); width: calc(initial + 1%);}
-    100% {box-shadow: 0px 0px 30px 20px rgba(0,0,0,0.6); background-color: #010101; height: calc(initial + 1%); width: calc(initial + 1%);}
+    0% {box-shadow: 0px 0px 0px 0px rgba(0,0,0,0.6); background-color: #252525; height: initial; width: initial;}
+    50% {box-shadow: 0px 0px 15px 10px rgba(0,0,0,0.6); background-color: #151515; height: calc(initial + 3%); width: calc(initial + 3%);}
+    100% {box-shadow: 0px 0px 30px 20px rgba(0,0,0,0.6); background-color: #010101; height: calc(initial + 6%); width: calc(initial + 6%);}
 }
 #main_player .player_sharing {
     -webkit-animation: pulseshadow 3s infinite alternate ease-out;
