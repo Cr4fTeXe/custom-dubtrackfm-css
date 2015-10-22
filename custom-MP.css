@@ -37,7 +37,7 @@ a:hover, a:visited {
 #header-global, #header-global h1{
     -webkit-animation: pulse 3s infinite alternate ease-out;
 }
-}
+
 
 }
 #header-global .user-info .user-header-menu li.user-messages span.message-counter {
@@ -48,7 +48,7 @@ a:hover, a:visited {
 #player-controller{
     -webkit-animation: pulse 3s infinite alternate ease-out;
 }
-}
+
 #player-controller ul li a.playbtn:hover {
     background-color: #AA74FE !important;
 }
