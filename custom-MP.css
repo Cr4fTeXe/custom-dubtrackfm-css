@@ -124,14 +124,6 @@ a:hover, a:visited {
 #main-room .left_section {
     background: #111;
 }
-/*@-webkit-keyframes pulse {
-      0% {background-color: #010101;}
-      20% {background-color: #030303;}
-      40% {background-color: #090909;}
-      60% {background-color: #121212;}
-      80% {background-color: #1a1a1a;}
-     100% {background-color: #1c1c1c;}
-}*/
 @-webkit-keyframes pulse{
     0% {background-color: #252525;}
     50% {background-color: #151515;}
