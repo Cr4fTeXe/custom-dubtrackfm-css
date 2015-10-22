@@ -221,7 +221,7 @@ button:hover {
 /* Chat box */
 
 #chat, .chat_tools, .pusher-chat-widget-input{
-    -webkit-animation: pulse 3s infinite alternate ease-out;
+    -webkit-animation: pulseshadow 3s infinite alternate ease-out;
 }
 
 #chat .chat_tools .room-user-counter {
