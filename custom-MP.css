@@ -119,15 +119,11 @@ a:hover, a:visited {
     background: #111;
 }
 @-webkit-keyframes pulse {
-      0% {background-color: #111;}
-     25% {background-color: #222;}
-     50% {background-color: #333;}
-     75% {background-color: #444;}
-     100% {background-color: #555;}
+      0% {background-color: #060606;}
+     100% {background-color: #2e2e2e;}
 }
 #main_player .player_sharing {
     -webkit-animation: pulse 5s infinite alternate;
-    background-color: #555;
 }
 
 #main_player .player_sharing span:hover {
