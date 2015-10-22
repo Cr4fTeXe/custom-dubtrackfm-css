@@ -122,9 +122,9 @@ a:hover, a:visited {
     /*-webkit-animation: pusate 1s linear infinite;
     -moz-animation: pusate 1s linear infinite;
     animation: pusate 1s linear infinite;*/
-  -webkit-animation: pulse 3s ease-out;
-  -moz-animation: pulse 3s ease-out;
-  animation: pulse 3s ease-out;
+  -webkit-animation: pulse 1s ease-out;
+  -moz-animation: pulse 1s ease-out;
+  animation: pulse 1s ease-out;
   -webkit-animation-iteration-count: infinite;
   -moz-animation-iteration-count: infinite;
   animation-iteration-count: infinite;
