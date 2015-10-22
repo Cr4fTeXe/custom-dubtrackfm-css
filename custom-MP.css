@@ -133,7 +133,7 @@ a:hover, a:visited {
      100% {background-color: #101010;}
 }
 #main_player .player_sharing {
-    -webkit-animation: pulse 3s infinite alternate;
+    -webkit-animation: pulse 6s infinite alternate;
 }
 
 #main_player .player_sharing span:hover {
