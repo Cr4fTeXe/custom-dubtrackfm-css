@@ -128,12 +128,12 @@ a:hover, a:visited {
       0% {background-color: #010101;}
       20% {background-color: #030303;}
       40% {background-color: #090909;}
-      60% {background-color: #0e0e0e;}
-      80% {background-color: #121212;}
-     100% {background-color: #141414;}
+      60% {background-color: #121212;}
+      80% {background-color: #1a1a1a;}
+     100% {background-color: #1c1c1c;}
 }
 #main_player .player_sharing {
-    -webkit-animation: pulse 6s infinite alternate;
+    -webkit-animation: pulse 10s infinite alternate;
 }
 
 #main_player .player_sharing span:hover {
