@@ -13,10 +13,10 @@ div.main-room-wrapper{
 	max-height: 100%;
 }
 section.left_section{
-	width: 80%;
-	padding-right: 0px;
+	width: 80% !important;
+	padding-right: 0px !important;
 	max-height: 100%;
-	min-height: 100%;
+	min-height: 100% !important;
 }
 div.main-player-wrapper{
 	height: 100%;
@@ -35,19 +35,19 @@ section#main_player{
 	background: rgba(26,26,26,1);
 }
 header#header-global{
-	background(26,26,26,1);
+	background: rgba(26,26,26,1);
 }
 div.player_container, div#room-main-player-container, div.playerElement.youtube{
 	background: rgba(26,26,26,1);
 }
 section.right_section{
-	width: 20%;
+	width: 20% !important;
 	float: right;
-	position: relative;
-	height: 100%;
+	position: relative !important;
+	height: 100% !important;
 	max-height: 100%;
-	border-radius: 0px;
-	background: rgba(8,8,8,1);
+	border-radius: 0px !important;
+	background: rgba(8,8,8,1) !important;
 }
 div.player_container{
 	height: 100%;
@@ -62,26 +62,29 @@ section#player-controller{
 #chat .chat-container .chat-messages .chat-main li{
 	border-bottom: 1px solid rgba(47,47,47,.4);
 }
+section.player_sharing{
+	display: none !important;
+}
 
 /*Usernames*/
 li.isVip .activity-row .text a.username{
-	color: #f1cc07;
+	color: #f1cc07 !important;
 }
 li.isDj .activity-row .text a.username{
-	color: #036ccd;
+	color: #036ccd !important;
 }
 li.isResident-dj .activity-row .text a.username{
-	color: #0087dd;
+	color: #0087dd !important;
 }
 li.isMod .activity-row .text a.username{
-	color: #199100;
+	color: #199100 !important;
 }
 li.isManager .activity-row .text a.username{
-	color: #2100ee;
+	color: #2100ee !important;
 }
 li.isCo-owner .activity-row .text a.username{
-	color: #20e200;
+	color: #20e200 !important;
 }
 li.isCreator .activity-row .text a.username{
-	color: #00e6ae;
+	color: #00e6ae !important;
 }
