@@ -1,0 +1,87 @@
+section #main-room{
+	max-width: 100%;
+	display: block;
+	width: 100% !important;
+	margin: 0px;
+	padding-right: 0px;
+	padding-left: 0px;
+	padding-top: 2.93%;
+	padding-bottom: 2.93%;
+}
+div.main-room-wrapper{
+	width: 100%;
+	max-height: 100%;
+}
+section.left_section{
+	width: 80%;
+	padding-right: 0px;
+	max-height: 100%;
+	min-height: 100%;
+}
+div.main-player-wrapper{
+	height: 100%;
+	max-height: 100%;
+	padding: 0px !important;
+	padding-top: 0px;
+	padding-bottom: 0px;
+	min-height: 97%;
+	background rgba(26,26,26,1);
+}
+section#main_player{
+	height: 100%;
+	max-height: 100%;
+	border: 0px;
+	padding: 0px;
+	background: rgba(26,26,26,1);
+}
+header#header-global{
+	background(26,26,26,1);
+}
+div.player_container, div#room-main-player-container, div.playerElement.youtube{
+	background: rgba(26,26,26,1);
+}
+section.right_section{
+	width: 20%;
+	float: right;
+	position: relative;
+	height: 100%;
+	max-height: 100%;
+	border-radius: 0px;
+	background: rgba(8,8,8,1);
+}
+div.player_container{
+	height: 100%;
+	padding-bottom: 0;
+}
+html{
+	overflow: hidden;
+}
+section#player-controller{
+	background: rgba(26,26,26,1);
+}
+#chat .chat-container .chat-messages .chat-main li{
+	border-bottom: 1px solid rgba(47,47,47,.4);
+}
+
+/*Usernames*/
+li.isVip .activity-row .text a.username{
+	color: #f1cc07;
+}
+li.isDj .activity-row .text a.username{
+	color: #036ccd;
+}
+li.isResident-dj .activity-row .text a.username{
+	color: #0087dd;
+}
+li.isMod .activity-row .text a.username{
+	color: #199100;
+}
+li.isManager .activity-row .text a.username{
+	color: #2100ee;
+}
+li.isCo-owner .activity-row .text a.username{
+	color: #20e200;
+}
+li.isCreator .activity-row .text a.username{
+	color: #00e6ae;
+}
