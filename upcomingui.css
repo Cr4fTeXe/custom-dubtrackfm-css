@@ -34,6 +34,9 @@ section#main_player{
 	padding: 0px;
 	background: rgba(26,26,26,1);
 }
+header#header-global{
+	background(26,26,26,1);
+}
 div.player_container, div#room-main-player-container, div.playerElement.youtube{
 	background: rgba(26,26,26,1);
 }
@@ -51,4 +54,7 @@ div.player_container{
 }
 html{
 	overflow: hidden;
+}
+section#player-controller{
+	background: rgba(47,47,47,1);
 }
