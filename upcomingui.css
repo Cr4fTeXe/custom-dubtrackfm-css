@@ -43,6 +43,7 @@ section.right_section{
 	position: relative;
 	height: 100%;
 	max-height: 100%;
+	border-radius: 0px;
 }
 html{
 	overflow: hidden;
