@@ -59,3 +59,29 @@ html{
 section#player-controller{
 	background: rgba(47,47,47,1);
 }
+#chat .chat-container .chat-messages .chat-main li{
+	border-bottom: 1px solid rgba(47,47,47,.4);
+}
+
+/*Usernames*/
+li.isVip .activity-row .text a.username{
+	color: #f1cc07;
+}
+li.isDj .activity-row .text a.username{
+	color: #036ccd;
+}
+li.isResident-dj .activity-row .text a.username{
+	color: #0087dd;
+}
+li.isMod .activity-row .text a.username{
+	color: #199100;
+}
+li.isManager .activity-row .text a.username{
+	color: #2100ee;
+}
+li.isCo-owner .activity-row .text a.username{
+	color: #20e200;
+}
+li.isCreator .activity-row .text a.username{
+	color: #00e6ae;
+}
