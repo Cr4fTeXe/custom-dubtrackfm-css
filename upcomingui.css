@@ -45,6 +45,10 @@ section.right_section{
 	max-height: 100%;
 	border-radius: 0px;
 }
+div.player_container{
+	height: 100%;
+	padding-bottom: 0;
+}
 html{
 	overflow: hidden;
 }
