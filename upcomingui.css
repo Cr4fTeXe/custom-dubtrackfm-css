@@ -57,7 +57,7 @@ html{
 	overflow: hidden;
 }
 section#player-controller{
-	background: rgba(47,47,47,1);
+	background: rgba(26,26,26,1);
 }
 #chat .chat-container .chat-messages .chat-main li{
 	border-bottom: 1px solid rgba(47,47,47,.4);
