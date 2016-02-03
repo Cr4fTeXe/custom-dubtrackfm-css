@@ -75,7 +75,7 @@ section.right_section{
 }
 div.player_container{
 	height: 100%;
-	/*padding-bottom: 54.8% !important;*/
+	padding-bottom: 0 !important;
 	z-index: 1 !important;
 }
 html{
