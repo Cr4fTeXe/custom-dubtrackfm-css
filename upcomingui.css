@@ -142,8 +142,8 @@ section.player_sharing{
 section#browser{
 	z-index: 99999;
 }
-.icon-play{
-	display: none;
+.play-song-link-browser .icon-play{
+	display: none !important;
 }
 #room-info-display .room-info-display-wrapper .description{
 	width: 90%;
