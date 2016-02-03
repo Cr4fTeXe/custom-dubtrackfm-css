@@ -42,13 +42,15 @@ div.main-player-wrapper{
 	padding-bottom: 0px;
 	min-height: 97%;
 	background rgba(26,26,26,1);
+	width: 100%;
+	position: absolute;
 }
 section#main_player{
 	height: 100%;
 	max-height: 100%;
 	border: 0px;
 	padding: 0px;
-	background: rgba(26,26,26,1);
+	background: none;
 	z-index: 99999;
 	position: absolute;
 	width: 100%;
@@ -92,7 +94,7 @@ section.player_sharing{
 	width: 30%;
 	border-bottom-left-radius: 10px;
 	border-bottom-right-radius: 10px;
-	margin: 0;
+	margin: 0px !important;
 	position: absolute;
 	left: 35%;
 	top: -50px;
@@ -110,25 +112,25 @@ section.player_sharing{
 	left: 50%;
 }
 .play-song-link-browser, .play-song-link{
-	background: none;
+	background: none !important;
 }
 .play-song-link-container{
 		top: -50px;
-		left: 105%;
+		left: 105% !important;
 		font-family: geomanist, sans-serif;
-		width: 15%;
+		width: 15% !important;
 		height: 0px;
 }
 .play-song-link-container div {
-    border-radius: .3rem;
-    padding: .5rem 1rem;
+    border-radius: .3rem !important;
+    padding: .5rem 1rem !important;
     font-weight: 700;
     font-size: 13.6px;
     font-size: .85rem;
     text-transform: uppercase;
     margin-right: 8px;
-    margin-right: .5rem;
-    display: inline-block;
+    margin-right: .5rem !important;
+    display: inline-block !important;
     opacity: .8;
     -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=80)";
     filter: alpha(opacity=80);
