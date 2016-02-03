@@ -116,6 +116,8 @@ section.player_sharing{
 		top: -50px;
 		left: 105%;
 		font-family: geomanist, sans-serif;
+		width: 15%;
+		height: 0px;
 }
 .play-song-link-container div {
     border-radius: .3rem;
