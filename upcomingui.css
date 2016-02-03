@@ -145,7 +145,7 @@ section#browser{
 .play-song-link-browser .icon-play{
 	display: none !important;
 }
-#room-info-display .room-info-display-wrapper .description{
+#room-info-display .room-info-display-wrapper .description, .chat-command-list, .user-list{
 	width: 90%;
 	margin: 0 auto;
 	font-size: 20px;
