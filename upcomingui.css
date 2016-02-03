@@ -157,6 +157,11 @@ section#browser{
 #room-info-display .room-info-display-wrapper .description a.autolink{
 	color: #D4D014;
 }
+#roomFormUpdate{
+	max-height: 83%;
+	overflow: scroll;
+	border-radius: 0px;
+}
 
 /*Logo*/
 div.header-left-navigation h1{
