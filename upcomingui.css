@@ -161,6 +161,7 @@ section#browser{
 	max-height: 83%;
 	overflow: scroll;
 	border-radius: 0px;
+	z-index: 99999;
 }
 
 /*Logo*/
