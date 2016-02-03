@@ -8,11 +8,17 @@ section #main-room{
 	padding-top: 2.93%;
 	padding-bottom: 2.93%;
 }
-@media (aspect-ratio: 4/3) { 
-   #main-room{
-	padding-top: 4.53%;
-	padding-bottom: 4.53%;
-   }
+@media screen and (device-aspect-ratio: 4/3){
+	#main-room{
+	 padding-top: 4.53%;
+	 padding-bottom: 4.53%;
+	}
+	section.left_section{
+		width: 75% !important;
+	}
+	section.right_section{
+		width: 25% !important;
+	}
 }
 div.main-room-wrapper{
 	width: 100%;
@@ -58,6 +64,7 @@ section.right_section{
 div.player_container{
 	height: 100%;
 	padding-bottom: 54.8% !important;
+	z-index: 1 !important;
 }
 html{
 	overflow: hidden;
@@ -66,31 +73,72 @@ section#player-controller{
 	background: rgba(26,26,26,1);
 }
 #chat .chat-container .chat-messages .chat-main li{
-	border-bottom: 1px solid rgba(47,47,47,.4);
+	border-bottom: 1px solid rgba(47,47,47,.5);
 }
+
+/*Video Options + Social Media*/
 section.player_sharing{
-	display: none !important;
+	z-index: 999;
+	background: url("http://www.cr4ftexe.com/hamburger.png") no-repeat 50% 95% rgba(26,26,26,1);
+	background-size: 6%;
+	padding: 10px 13px;
+	padding-bottom: 20px;
+	width: 45%;
+	border-bottom-left-radius: 10px;
+	border-bottom-right-radius: 10px;
+	margin: 0;
+	position: absolute;
+	left: 27.5%;
+	top: -50px;
+	-webkit-transition: all .25s ease;
+     -moz-transition: all .25s ease;
+      -ms-transition: all .25s ease;
+       -o-transition: all .25s ease;
+          transition: all .25s ease;
+}
+section.player_sharing:hover{
+	top: 0 !important;
+}
+
+/*Logo*/
+div.header-left-navigation h1{
+	background: url(https://scontent-fra3-1.xx.fbcdn.net/hphotos-xta1/l/t31.0-8/11893915_1029314760420487_1989653092373034090_o.png);
+	background-size: 3rem 2rem;
+	background-position-x: -8px;
+	border-radius: 15px;
 }
 
 /*Usernames*/
 li.isVip .activity-row .text a.username{
-	color: #f1cc07 !important;
+	color: #d4af37 !important;
 }
 li.isDj .activity-row .text a.username{
-	color: #036ccd !important;
+	color: #0ff !important;
 }
 li.isResident-dj .activity-row .text a.username{
-	color: #0087dd !important;
+	color: #f0f !important;
 }
 li.isMod .activity-row .text a.username{
-	color: #199100 !important;
+	color: #039100 !important;
 }
 li.isManager .activity-row .text a.username{
-	color: #2100ee !important;
+	color: #0099ee !important;
 }
 li.isCo-owner .activity-row .text a.username{
-	color: #20e200 !important;
+	color: #dde200 !important;
 }
 li.isCreator .activity-row .text a.username{
-	color: #00e6ae !important;
+	color: #ab0000 !important;
+}
+li.user-56099aa85b4f330300c41251 .activity-row .text a.username{
+	animation: colorRotate 1s linear 0s infinite;
+}
+@keyframes colorRotate {
+    from { color: rgb(255, 0, 0); }
+    16.6% { color: rgb(255, 0, 255); }
+    33.3% { color: rgb(0, 0, 255); }
+    50% { color: rgb(0, 255, 255); }
+    66.6% { color: rgb(0, 255, 0); }
+    83.3% { color: rgb(255, 255, 0); }
+    to { color: rgb(255, 0, 0); }
 }
