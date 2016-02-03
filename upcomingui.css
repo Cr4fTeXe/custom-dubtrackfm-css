@@ -115,10 +115,10 @@ section.player_sharing{
 	background: none !important;
 }
 .play-song-link-container{
-		top: -50px;
-		left: 105% !important;
+		top: -47px;
+		left: 96% !important;
 		font-family: geomanist, sans-serif;
-		width: 15% !important;
+		width: 20% !important;
 		height: 0px;
 }
 .play-song-link-container div {
@@ -141,6 +141,9 @@ section.player_sharing{
 }
 section#browser{
 	z-index: 99999;
+}
+.icon-play{
+	display: none;
 }
 
 /*Logo*/
