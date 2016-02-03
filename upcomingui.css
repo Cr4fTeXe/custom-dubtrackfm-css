@@ -91,12 +91,12 @@ section#player-controller{
 /*Video Options + Social Media*/
 section.player_sharing{
 	padding: 10px 13px;
-	width: 30%;
+	width: 28%;
 	border-bottom-left-radius: 10px;
 	border-bottom-right-radius: 10px;
 	margin: 0px !important;
 	position: absolute;
-	left: 35%;
+	left: 33%;
 	top: -50px;
 	-webkit-transition: all .25s ease;
      -moz-transition: all .25s ease;
@@ -139,12 +139,15 @@ section.player_sharing{
 .play-song-link-container div:hover{
 	background: #000;
 }
+section#browser{
+	z-index: 99999;
+}
 
 /*Logo*/
 div.header-left-navigation h1{
-	background: url(https://scontent-fra3-1.xx.fbcdn.net/hphotos-xta1/l/t31.0-8/11893915_1029314760420487_1989653092373034090_o.png);
-	background-size: 3rem 2rem;
-	background-position-x: -8px;
+	background: url(https://scontent-fra3-1.xx.fbcdn.net/hphotos-xta1/l/t31.0-8/11893915_1029314760420487_1989653092373034090_o.png) !important;
+	background-size: 3rem 2rem !important;
+	background-position-x: -8px !important;
 	border-radius: 15px;
 }
 
