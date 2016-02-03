@@ -145,6 +145,18 @@ section#browser{
 .icon-play{
 	display: none;
 }
+#room-info-display .room-info-display-wrapper .description{
+	width: 90%;
+	margin: 0 auto;
+	font-size: 20px;
+	font-weight: 600;
+	padding: 40px;
+	background: rgba(47,47,47,1);
+	border-radius: 10px;
+}
+#room-info-display .room-info-display-wrapper .description a.autolink{
+	color: #D4D014;
+}
 
 /*Logo*/
 div.header-left-navigation h1{
