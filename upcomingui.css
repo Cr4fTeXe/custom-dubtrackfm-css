@@ -20,10 +20,8 @@ section #main-room{
 		width: 25% !important;
 	}
 	section.player_sharing{
-		background-size: 6%;
 		width: 45%;
 		left: 27.5%;
-		padding-bottom: 20px;
 	}
 }
 div.main-room-wrapper{
@@ -51,6 +49,12 @@ section#main_player{
 	border: 0px;
 	padding: 0px;
 	background: rgba(26,26,26,1);
+	z-index: 99999;
+	position: absolute;
+	width: 100%;
+}
+section#main_player .player_header span{
+	background: none;
 }
 header#header-global{
 	background: rgba(26,26,26,1);
@@ -84,11 +88,7 @@ section#player-controller{
 
 /*Video Options + Social Media*/
 section.player_sharing{
-	z-index: 999;
-	background: url("http://www.cr4ftexe.com/hamburger.png") no-repeat 50% 95% rgba(26,26,26,1);
-	background-size: 5%;
 	padding: 10px 13px;
-	padding-bottom: 25px;
 	width: 30%;
 	border-bottom-left-radius: 10px;
 	border-bottom-right-radius: 10px;
@@ -102,8 +102,38 @@ section.player_sharing{
        -o-transition: all .25s ease;
           transition: all .25s ease;
 }
-section.player_sharing:hover{
-	top: 0 !important;
+#main_player .player_header{
+	z-index: 99999;
+	position: fixed;
+	width: 22%;
+	top: 10px;
+	left: 50%;
+}
+.play-song-link-browser, .play-song-link{
+	background: none;
+}
+.play-song-link-container{
+		top: -50px;
+		left: 105%;
+		font-family: geomanist, sans-serif;
+}
+.play-song-link-container div {
+    border-radius: .3rem;
+    padding: .5rem 1rem;
+    font-weight: 700;
+    font-size: 13.6px;
+    font-size: .85rem;
+    text-transform: uppercase;
+    margin-right: 8px;
+    margin-right: .5rem;
+    display: inline-block;
+    opacity: .8;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=80)";
+    filter: alpha(opacity=80);
+    text-align: center;
+}
+.play-song-link-container div:hover{
+	background: #000;
 }
 
 /*Logo*/
