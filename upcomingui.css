@@ -163,6 +163,10 @@ section#browser{
 	border-radius: 0px;
 	z-index: 99999;
 }
+.eta_tooltip {
+    position: relative !important;
+    width: 45% !important;
+}
 
 /*Logo*/
 div.header-left-navigation h1{
